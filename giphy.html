@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giphy Animals</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!--CSS file-->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<div class="clear"></div>
+
+<body>
+    <div class="wrapper">
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+            <div id=animalButtons>
+            </div>
+        </div>
+        
+        <div class="col-md-12" id="directions">
+            <form id="animalForm">
+                <label for="animalImage"><h3>Add an animal</h3>
+                </label>
+                <input type="text" id=animalInput></input>
+                <input id="addAnimal" type="submit" value="search"></input>
+            </form>
+            <h2>Click on an Animal Button to display 10 giphy's of that animal</h2>
+            <h4>You can add more Animals above. If you click on the animal, it will become animated</h4>
+        </div>
+        
+        <div class="col-md-12">
+            <div id=animals>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="push"></div>
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <br> &copy; 2017 Heather Berry</p>
+        </div>
+    </footer>
+    </div>
+    <!--jQuery-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <!--My script-->
+    <script type="text/javascript" src="giphy.js"></script>
+</body>
+
+</html>

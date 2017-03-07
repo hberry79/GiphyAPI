@@ -1,0 +1,95 @@
+.gif {
+  max-height: 200px;
+  margin: 2px;
+}
+html,
+body {
+  font: 18px arial, sans-serif;
+  background-color: #d7fff5;
+  height: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #7a5e75;
+}
+p, h3, h4 {
+  font-family: 'Lato', sans-serif;
+  color: #6789b0;
+}
+
+.clear {
+  padding: 30px;
+}
+
+#animals {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+.animal-item {
+  float: left;
+  display: inline-grid;
+  padding: 10px;
+}
+
+form {
+  padding: 20px;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 30px;
+  font-size: 18px;
+}
+
+button,
+input[type="submit"] {
+  background: #8db6d4;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 18px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #7a5e75;
+}
+#directions{
+  text-align: center;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #334E4D;
+}
+
+button.active {
+  background: #334E4D;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.footer,
+.push {
+  height: 4em;
+  text-align: center;
+}
